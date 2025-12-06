@@ -2,7 +2,7 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: baseline;
+  justify-content: center;
 }
 
 .logo {
@@ -16,8 +16,7 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  margin: auto;
-  align-content: ;
+  margin: 0 auto;
 }
 
 a {
