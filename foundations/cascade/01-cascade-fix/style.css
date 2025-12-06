@@ -1,21 +1,29 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* rule one */
 .para,
-.small-para {
+.small-para,
+.child {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
-
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
+/* rule two */
 .para {
   font-size: 22px;
 }
+/* rule three */
+.small-para {
+  font-size: 14px;
+}
+
+/*rule four*/
+
+.button {
+  font-size: 20px;
+}
+
+/*rule five*/
 
 .confirm {
   background: green;
@@ -23,20 +31,23 @@ body {
   font-weight: bold;
 } 
 
-.button {
+/*rule six*/
+.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 20px;
 }
 
+/*rule seven*/
+
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+/*rule eight*/
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
